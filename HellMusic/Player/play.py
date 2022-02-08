@@ -130,8 +130,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton('⏭️', callback_data="skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/VEXERA_UPDATES"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/SNEHABHI_SERVER"),
+                      InlineKeyboardButton("🚑 Support", url=f"https://t.me/Blaze_Support"),
+                      InlineKeyboardButton("Updates 📢", url=f"https://t.me/The_Blaze_Network"),
                   ],[
                       InlineKeyboardButton("🗑 Close", callback_data="cls")],
                   ]
@@ -245,8 +245,8 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/VEXERA_UPDATES"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/SNEHABHI_SERVER")
+                            InlineKeyboardButton("🚑 Support", url=f"https://t.me/Blaze_Support"),
+                            InlineKeyboardButton("Updates 📢", url=f"https://t.me/The_Blaze_Network")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
